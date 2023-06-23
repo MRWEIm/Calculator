@@ -12,50 +12,9 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="2"
+        android:layout_weight="1"
         android:orientation="horizontal"
         android:gravity="center">
-        <LinearLayout
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:orientation="vertical"
-            android:gravity="center">
-            <Button
-                android:textAllCaps="false"
-                android:id="@+id/btn_sin"
-                android:layout_width="wrap_content"
-                android:layout_height="0dp"
-                android:layout_weight="1"
-                android:text="@string/button_sin"/>
-            <Button
-                android:textAllCaps="false"
-                android:id="@+id/btn_cos"
-                android:layout_width="wrap_content"
-                android:layout_height="0dp"
-                android:layout_weight="1"
-                android:text="@string/button_cos"/>
-            <Button
-                android:textAllCaps="false"
-                android:id="@+id/btn_log"
-                android:layout_width="wrap_content"
-                android:layout_height="0dp"
-                android:layout_weight="1"
-                android:text="@string/button_log"/>
-            <Button
-                android:id="@+id/btn_invo"
-                android:layout_width="wrap_content"
-                android:layout_height="0dp"
-                android:layout_weight="1"
-                android:text="@string/button_invo"/>
-            <Button
-                android:textAllCaps="false"
-                android:id="@+id/btn_e"
-                android:layout_width="wrap_content"
-                android:layout_height="0dp"
-                android:layout_weight="1"
-                android:text="@string/button_e"/>
-        </LinearLayout>
 
         <LinearLayout
             android:layout_width="0dp"
@@ -63,77 +22,45 @@
             android:layout_weight="1"
             android:orientation="vertical"
             android:gravity="center">
-            <Button
-                android:textAllCaps="false"
-                android:id="@+id/btn_tan"
-                android:layout_width="wrap_content"
-                android:layout_height="0dp"
-                android:layout_weight="1"
-                android:text="@string/button_tan"/>
-            <Button
-                android:textAllCaps="false"
-                android:id="@+id/btn_ln"
-                android:layout_width="wrap_content"
-                android:layout_height="0dp"
-                android:layout_weight="1"
-                android:text="@string/button_ln"/>
-            <Button
-                android:id="@+id/btn_fact"
-                android:layout_width="wrap_content"
-                android:layout_height="0dp"
-                android:layout_weight="1"
-                android:text="@string/button_fact" />
-            <Button
-                android:id="@+id/btn_pi"
-                android:layout_width="wrap_content"
-                android:layout_height="0dp"
-                android:layout_weight="1"
-                android:text="@string/button_pi"/>
-            <Button
-                android:id="@+id/btn_squ"
-                android:layout_width="wrap_content"
-                android:layout_height="0dp"
-                android:text="@string/button_squ"
-                android:layout_weight="1"/>
 
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:orientation="vertical"
-            android:gravity="center">
             <Button
                 android:id="@+id/btn_lb"
                 android:layout_width="wrap_content"
                 android:layout_height="0dp"
                 android:layout_weight="1"
                 android:text="@string/button_lb"/>
+
             <Button
                 android:id="@+id/btn_7"
                 android:layout_width="wrap_content"
                 android:layout_height="0dp"
                 android:layout_weight="1"
-                android:text="@string/button_7"/>
+                android:text="@string/button_7"></Button>
+
             <Button
                 android:id="@+id/btn_4"
                 android:layout_width="wrap_content"
                 android:layout_height="0dp"
                 android:text="@string/button_4"
-                android:layout_weight="1"/>
+                android:layout_weight="1">
+            </Button>
+
             <Button
                 android:id="@+id/btn_1"
                 android:layout_width="wrap_content"
                 android:layout_height="0dp"
                 android:layout_weight="1"
-                android:text="@string/button_1"/>
+                android:text="@string/button_1">
+            </Button>
+
             <Button
                 android:id="@+id/btn_0"
                 android:layout_width="wrap_content"
                 android:layout_height="0dp"
                 android:layout_weight="1"
-                android:text="@string/button_0"/>
+                android:text="@string/button_0">
+            </Button>
+
         </LinearLayout>
 
         <LinearLayout
@@ -142,36 +69,46 @@
             android:layout_weight="1"
             android:orientation="vertical"
             android:gravity="center">
+
             <Button
                 android:id="@+id/btn_rb"
                 android:layout_width="wrap_content"
                 android:layout_height="0dp"
                 android:layout_weight="1"
                 android:text="@string/button_rb"/>
+
             <Button
                 android:id="@+id/btn_8"
                 android:layout_width="wrap_content"
                 android:layout_height="0dp"
                 android:layout_weight="1"
-                android:text="@string/button_8"/>
+                android:text="@string/button_8"></Button>
+
             <Button
                 android:id="@+id/btn_5"
                 android:layout_width="wrap_content"
                 android:layout_height="0dp"
                 android:text="@string/button_5"
-                android:layout_weight="1"/>
+                android:layout_weight="1">
+
+            </Button>
+
             <Button
                 android:id="@+id/btn_2"
                 android:layout_width="wrap_content"
                 android:layout_height="0dp"
                 android:layout_weight="1"
-                android:text="@string/button_2"/>
+                android:text="@string/button_2">
+            </Button>
+
             <Button
                 android:id="@+id/btn_dot"
                 android:layout_width="wrap_content"
                 android:layout_height="0dp"
                 android:layout_weight="1"
-                android:text="@string/button_dot"/>
+                android:text="@string/button_dot">
+            </Button>
+
         </LinearLayout>
 
         <LinearLayout
@@ -180,38 +117,48 @@
             android:layout_weight="1"
             android:orientation="vertical"
             android:gravity="center">
+
             <Button
-                android:textAllCaps="false"
                 android:id="@+id/btn_del"
                 android:layout_width="wrap_content"
                 android:layout_height="0dp"
                 android:layout_weight="1"
-                android:text="@string/button_del"/>
-
+                android:text="@string/button_del">
+            </Button>
             <Button
                 android:id="@+id/btn_9"
                 android:layout_width="wrap_content"
                 android:layout_height="0dp"
                 android:layout_weight="1"
-                android:text="@string/button_9"/>
+                android:text="@string/button_9">
+
+            </Button>
+
             <Button
                 android:id="@+id/btn_6"
                 android:layout_width="wrap_content"
                 android:layout_height="0dp"
                 android:text="@string/button_6"
-                android:layout_weight="1"/>
+                android:layout_weight="1">
+
+            </Button>
+
             <Button
                 android:id="@+id/btn_3"
                 android:layout_width="wrap_content"
                 android:layout_height="0dp"
                 android:layout_weight="1"
-                android:text="@string/button_3"/>
+                android:text="@string/button_3">
+            </Button>
+
             <Button
                 android:id="@+id/btn_equ"
                 android:layout_width="wrap_content"
                 android:layout_height="0dp"
                 android:layout_weight="1"
-                android:text="@string/button_equ"/>
+                android:text="@string/button_equ">
+            </Button>
+
         </LinearLayout>
 
         <LinearLayout
@@ -225,34 +172,46 @@
                 android:layout_width="wrap_content"
                 android:layout_height="0dp"
                 android:layout_weight="1"
-                android:text="@string/button_clear"/>
+                android:text="@string/button_clear"></Button>
 
             <Button
                 android:id="@+id/btn_dvi"
                 android:layout_width="wrap_content"
                 android:layout_height="0dp"
                 android:layout_weight="1"
-                android:text="@string/button_dvi"/>
+                android:text="@string/button_dvi">
+
+            </Button>
+
             <Button
                 android:id="@+id/btn_mul"
                 android:layout_width="wrap_content"
                 android:layout_height="0dp"
                 android:text="@string/button_mul"
-                android:layout_weight="1"/>
+                android:layout_weight="1">
+
+            </Button>
+
             <Button
                 android:id="@+id/btn_min"
                 android:layout_width="wrap_content"
                 android:layout_height="0dp"
                 android:layout_weight="1"
-                android:text="@string/button_min"/>
+                android:text="@string/button_min">
+            </Button>
+
             <Button
                 android:id="@+id/btn_plus"
                 android:layout_width="wrap_content"
                 android:layout_height="0dp"
                 android:layout_weight="1"
-                android:text="@string/button_plus"/>
+                android:text="@string/button_plus">
+            </Button>
+
+
 
         </LinearLayout>
+
 
     </LinearLayout>
 

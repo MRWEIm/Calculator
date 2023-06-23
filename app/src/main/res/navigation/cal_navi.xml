@@ -1,6 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
-             xmlns:app="http://schemas.android.com/apk/res-auto"
-             android:id="@+id/cal_navi">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cal_navi"
+    app:startDestination="@id/simpleFragment">
 
+    <fragment
+        android:id="@+id/historyFragment"
+        android:name="com.larissa.android.quiz.HistoryFragment"
+        android:label="HistoryFragment" >
+        <action
+            android:id="@+id/action_historyFragment_to_simpleFragment"
+            app:destination="@id/simpleFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/simpleFragment"
+        android:name="com.larissa.android.quiz.SimpleFragment"
+        android:label="SimpleFragment" >
+        <argument
+            android:name="Idx"
+            app:argType="integer" />
+        <action
+            android:id="@+id/action_simpleFragment_to_historyFragment"
+            app:destination="@id/historyFragment" />
+    </fragment>
 </navigation>
